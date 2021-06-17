@@ -1,6 +1,6 @@
 [[package]]
 name = "dist"
-version = "0.1"
+version = "0.1.0"
 description = ""
 category = "main"
 optional = false
@@ -8,7 +8,7 @@ python-versions = "*"
 
 [package.source]
 type = "file"
-url = "../pants-clone/dist/dist-0.1-py3-none-any.whl"
+url = "../pants/dist/dist-0.1.0/dist/dist-0.1.0-py3-none-any.whl"
 
 [[package]]
 name = "mypy"
@@ -54,11 +54,11 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "5a9a0504932ce82633bf744b5383786aa983074002f8ad492da03ab21173b1e0"
+content-hash = "2fd6a7ddd887ac21a8835414799c29f67fb89dd3ea85cff7f03f523e69575e8a"
 
 [metadata.files]
 dist = [
-    {file = "dist-0.1-py3-none-any.whl", hash = "sha256:eb95192714e1fe357abcc01b740fd6f99cadd96f3dcff93c55d364348b8aefcf"},
+    {file = "dist-0.1.0-py3-none-any.whl", hash = "sha256:fe116fd9d39d387748cdd6022f229e3a0bd24b972417af3d08883e04bd86da84"},
 ]
 mypy = [
     {file = "mypy-0.902-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:3f12705eabdd274b98f676e3e5a89f247ea86dc1af48a2d5a2b080abac4e1243"},

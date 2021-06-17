@@ -5,8 +5,8 @@ description = ""
 authors = ["Eric Arellano <ericarellano@me.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-dist = {path = "../pants-clone/dist/dist-0.1-py3-none-any.whl"}
+python = "^3.7"
+dist = {path = "../pants/dist/dist-0.1.0/dist/dist-0.1.0-py3-none-any.whl"}
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.902"
