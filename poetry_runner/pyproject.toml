@@ -6,10 +6,10 @@ authors = ["Eric Arellano <ericarellano@me.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-dist = {path = "../pants/dist/dist-0.1.0/dist/dist-0.1.0-py3-none-any.whl"}
+dist = {path = "../pants/dist/dist-0.1.0-py3-none-any.whl"}
 
 [tool.poetry.dev-dependencies]
-mypy = "^0.902"
+mypy = "==0.800"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
